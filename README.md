@@ -1,38 +1,29 @@
-# create-svelte
+# @thomasrogerlux's website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Please note this is a work in progress v2. You can check out the v1 at [thomasrogerlux.dev](https://thomasrogerlux.dev).
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+This v2 uses [Svelte](https://svelte.dev/) instead of React. I'm curious about the result of working with a compiler instead of a regular library.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Development and build
 
-# create a new project in my-app
-npm init svelte@next my-app
+Warning: this project uses PNPM as package manager, do not attempt to use NPM or Yarn
+
+**Development**
+
+```shell
+pnpm dev
 ```
 
-> Note: the `@next` is temporary
+**Build**
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```shell
+pnpm build
 ```
 
-## Building
+**Local build preview**
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
+```shell
+pnpm preview
 ```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.

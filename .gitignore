@@ -1,5 +1,9 @@
-.DS_Store
+# Dependencies
 node_modules
-/build
-/.svelte-kit
-/package
+
+# Build
+.svelte-kit
+.vercel_build_output
+
+# Systems
+.DS_Store
