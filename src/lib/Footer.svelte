@@ -1,0 +1,48 @@
+<div class="img-container">
+    <img src="/illustration-work.png" alt="Thomas working" height="128" />
+</div>
+<footer>
+    <span>Made with ❤️ in France © Thomas Roger Lux</span>
+    <span>Illustrations drawn by EnPitSu © Lucas Vilard</span>
+    <span>
+        Look at the source code on <a href="https://github.com/thomasrogerlux/site" target="_blank">
+            Github
+        </a>
+    </span>
+</footer>
+
+<style>
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    img {
+        height: 8rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        border-top: 0.2rem solid black;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: black;
+        color: white;
+    }
+
+    a {
+        color: lightgray;
+    }
+
+    @media (min-width: 640px) {
+        img {
+            height: 12rem;
+        }
+    }
+</style>
