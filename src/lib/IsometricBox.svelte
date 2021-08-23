@@ -9,9 +9,7 @@
         position: relative;
         overflow: hidden;
         padding-right: 1rem;
-        margin-right: -1rem;
         padding-bottom: 1rem;
-        margin-bottom: -1rem;
     }
 
     .box {
