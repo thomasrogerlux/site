@@ -3,27 +3,27 @@
 
     const infos = [
         {
-            title: "Tech",
+            title: "💾 Tech",
             description:
                 "Tech enthusiast, eager to learn new way of doing things. I'm the kind of guy with a 3D printer at home and a Raspberry Pi plugged into my router."
         },
         {
-            title: "Work",
+            title: "💻 Work",
             description:
                 "Software engineer at Qantev. An insurtech startup based in Paris, where we're all working very hard to produce a solid SaaS for medical networks."
         },
         {
-            title: "Life",
+            title: "📸 Life",
             description:
                 "Film photographer on my spare time, I found a liking for analog tech such as film cameras, turntables and slide projectors. Amateur guitarist also, with a love for old rocks and blues, soon to get my third baby."
         },
         {
-            title: "Education",
+            title: "🎓 Education",
             description:
                 "Self-taught developer at heart, I still did a formal education in computer science with a master's degree at Epitech, in Nice and Paris, France. I also got the chance to attend one full year at Inha University in Incheon, South Korea, as an exchange student in computer engineering."
         },
         {
-            title: "Skills",
+            title: "💪 Skills",
             description:
                 "Fullstack currently trying to learn new stuff in Go, Rust and Svelte. Main proficiency being TypeScript stacks such as React, Angular or Node. Devops believer, I know my Docker, my Ansible, Terraform and CI. Studied C/C++ and ASM during my student years."
         }

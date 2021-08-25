@@ -3,7 +3,7 @@
         <img src="/illustration-face.png" alt="Thomas' face" height="128" />
     </div>
     <div class="text-container">
-        <h1>Thomas Roger Lux</h1>
+        <h1>👋 Thomas Roger Lux</h1>
         <p>is a Software Engineer based in Paris, France</p>
     </div>
 </div>
