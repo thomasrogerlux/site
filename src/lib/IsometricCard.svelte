@@ -22,6 +22,6 @@
     }
 
     .hover:hover {
-        transform: translateY(-1rem);
+        transform: rotate(-5deg) scale(1.1);
     }
 </style>

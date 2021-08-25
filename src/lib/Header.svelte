@@ -22,6 +22,12 @@
         flex-direction: row-reverse;
         height: 8rem;
         border-bottom: 0.2rem solid black;
+        transition: all 0.25s ease-in-out;
+        transform-origin: bottom;
+    }
+
+    .img-container:hover {
+        transform: scale(1.1);
     }
 
     img {

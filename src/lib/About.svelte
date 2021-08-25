@@ -10,12 +10,12 @@
         {
             title: "Work",
             description:
-                "Software engineer at Qantev. It's an insurtech startup based in Paris, where we are all working very hard to produce a solid SaaS for medical networks."
+                "Software engineer at Qantev. An insurtech startup based in Paris, where we're all working very hard to produce a solid SaaS for medical networks."
         },
         {
             title: "Life",
             description:
-                "Film photographer on my spare time, I found a liking for analog tech such as film cameras, turntables and slide projectors. Guitar's also a big thing for me, always have one nearby."
+                "Film photographer on my spare time, I found a liking for analog tech such as film cameras, turntables and slide projectors. Amateur guitarist also, with a love for old rocks and blues, soon to get my third baby."
         },
         {
             title: "Education",

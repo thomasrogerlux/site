@@ -5,11 +5,10 @@
     <p>Made with ❤️ in France © Thomas Roger Lux</p>
     <p>Illustrations drawn by EnPitSu © Lucas Vilard</p>
     <p>
-        Look at the source code on <a href="https://github.com/thomasrogerlux/site">
-            GitHub
-        </a>
+        Look at the source code on <a href="https://github.com/thomasrogerlux/site">GitHub</a>
     </p>
 </footer>
+
 <style>
     .img-container {
         width: 100%;
@@ -20,6 +19,12 @@
 
     img {
         height: 8rem;
+        transition: all 0.25s ease-in-out;
+        transform-origin: bottom;
+    }
+
+    img:hover {
+        transform: scale(1.1);
     }
 
     footer {
