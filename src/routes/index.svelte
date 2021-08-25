@@ -7,10 +7,10 @@
 
 <Page>
     <Header slot="header" />
-    <div slot="main">
+    <svelte:fragment slot="main">
         <About />
         <Contact />
-    </div>
+    </svelte:fragment>
 </Page>
 
 <style>

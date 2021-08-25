@@ -6,7 +6,7 @@
             value: "mailto:thomas@rogerlux.dev"
         },
         {
-            type: "Github",
+            type: "GitHub",
             label: "github.com/thomasrogerlux",
             value: "https://github.com/thomasrogerlux"
         },
@@ -29,7 +29,7 @@
         {#each contacts as contact}
             <li>
                 <strong>{contact.type}</strong>:
-                <a href={contact.value} target="_blank">{contact.label}</a>
+                <a href={contact.value}>{contact.label}</a>
             </li>
         {/each}
     </ul>
