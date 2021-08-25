@@ -36,12 +36,11 @@
         width: 100%;
         padding-top: 4rem;
         padding-bottom: 4rem;
-        background: black;
-        color: white;
+        border-top: 0.2rem solid black;
     }
 
     a {
-        color: lightgray;
+        color: gray;
     }
 
     @media (min-width: 640px) {

@@ -4,19 +4,11 @@
 </script>
 
 <Container>
-    <div class="page">
-        <header>
-            <slot name="header" />
-        </header>
-        <main>
-            <slot name="main" />
-        </main>
-    </div>
+    <header>
+        <slot name="header" />
+    </header>
+    <main>
+        <slot name="main" />
+    </main>
+    <Footer />
 </Container>
-<Footer />
-
-<style>
-    .page {
-        min-height: 100vh;
-    }
-</style>
