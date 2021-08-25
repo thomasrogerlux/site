@@ -1,5 +1,5 @@
 <div class="img-container">
-    <img src="/illustration-work.png" alt="Thomas working" height="128" />
+    <img src="/illustrations/work.png" alt="Thomas working" height="128" />
 </div>
 <footer>
     <p>Made with ❤️ in France © Thomas Roger Lux</p>

@@ -18,7 +18,7 @@
         {
             type: "Resume",
             label: "thomasrogerlux.pdf",
-            value: "/thomasrogerlux.pdf"
+            value: "/documents/thomasrogerlux.pdf"
         }
     ];
 </script>

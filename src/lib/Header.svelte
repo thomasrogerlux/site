@@ -1,6 +1,6 @@
 <div class="root">
     <div class="img-container">
-        <img src="/illustration-face.png" alt="Thomas' face" height="128" />
+        <img src="/illustrations/face.png" alt="Thomas' face" height="128" />
     </div>
     <div class="text-container">
         <h1>👋 Thomas Roger Lux</h1>
