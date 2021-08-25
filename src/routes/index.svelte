@@ -5,6 +5,10 @@
     import Page from "$lib/Page.svelte";
 </script>
 
+<svelte:head>
+    <title>Thomas Roger Lux | Software Engineer</title>
+</svelte:head>
+
 <Page>
     <Header slot="header" />
     <svelte:fragment slot="main">
