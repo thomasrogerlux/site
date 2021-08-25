@@ -26,9 +26,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
         width: 100%;
-        border-top: 0.2rem solid black;
         padding-top: 4rem;
         padding-bottom: 4rem;
         background: black;
