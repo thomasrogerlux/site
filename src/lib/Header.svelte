@@ -22,17 +22,19 @@
         flex-direction: row-reverse;
         height: 8rem;
         border-bottom: 0.2rem solid black;
-        transition: all 0.25s ease-in-out;
-        transform-origin: bottom;
-    }
-
-    .img-container:hover {
-        transform: scale(1.1);
     }
 
     img {
         margin-bottom: 0;
         height: 100%;
+        transition: all 0.25s ease-in-out;
+        transform-origin: bottom right;
+    }
+
+    @media (hover: hover) {
+        img:hover {
+            transform: scale(1.1);
+        }
     }
 
     .text-container {

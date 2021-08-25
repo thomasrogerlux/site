@@ -21,7 +21,9 @@
         transition: all 0.25s ease-in-out;
     }
 
-    .hover:hover {
-        transform: rotate(-5deg) scale(1.1);
+    @media (hover: hover) {
+        .hover:hover {
+            transform: rotate(-5deg) scale(1.1);
+        }
     }
 </style>

@@ -23,8 +23,10 @@
         transform-origin: bottom;
     }
 
-    img:hover {
-        transform: scale(1.1);
+    @media (hover: hover) {
+        img:hover {
+            transform: scale(1.1);
+        }
     }
 
     footer {
