@@ -39,10 +39,6 @@
         border-top: 0.2rem solid black;
     }
 
-    a {
-        color: gray;
-    }
-
     @media (min-width: 640px) {
         img {
             height: 12rem;

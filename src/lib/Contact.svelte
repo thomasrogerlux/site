@@ -49,8 +49,4 @@
     section {
         padding-bottom: 2rem;
     }
-
-    a {
-        color: gray;
-    }
 </style>
