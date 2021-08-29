@@ -16,6 +16,3 @@
         <Contact />
     </svelte:fragment>
 </Page>
-
-<style>
-</style>

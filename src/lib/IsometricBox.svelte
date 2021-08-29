@@ -14,14 +14,14 @@
 
     .box {
         position: relative;
-        border: 0.2rem solid black;
+        border: 0.2rem solid var(--accent-color);
         box-sizing: border-box;
-        background: white;
+        background: var(--background-color);
     }
 
     .box::before {
         content: "";
-        background: black;
+        background: var(--accent-color);
         position: absolute;
         width: 1.5rem;
         height: 110%;
@@ -32,7 +32,7 @@
 
     .box::after {
         content: "";
-        background: black;
+        background: var(--accent-color);
         position: absolute;
         width: 110%;
         height: 1.5rem;

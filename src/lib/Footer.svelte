@@ -36,7 +36,7 @@
         width: 100%;
         padding-top: 4rem;
         padding-bottom: 4rem;
-        border-top: 0.2rem solid black;
+        border-top: 0.2rem solid var(--accent-color);
     }
 
     @media (min-width: 640px) {

@@ -37,7 +37,7 @@
 
 <style>
     h1 {
-        border-bottom: 0.2rem solid black;
+        border-bottom: 0.2rem solid var(--accent-color);
         padding-bottom: 1rem;
         margin-bottom: 2rem;
     }

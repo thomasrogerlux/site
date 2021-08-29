@@ -11,7 +11,7 @@
 <style>
     .root {
         padding-top: 2rem;
-        border-bottom: 0.2rem solid black;
+        border-bottom: 0.2rem solid var(--accent-color);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: row-reverse;
         height: 8rem;
-        border-bottom: 0.2rem solid black;
+        border-bottom: 0.2rem solid var(--accent-color);
     }
 
     img {
