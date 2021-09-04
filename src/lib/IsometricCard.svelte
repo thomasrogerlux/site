@@ -2,18 +2,19 @@
     import IsometricBox from "./IsometricBox.svelte";
 
     export let hover = false;
+    export let padding = true;
 </script>
 
 <div class:hover>
     <IsometricBox>
-        <div class="card">
+        <div class:padding>
             <slot />
         </div>
     </IsometricBox>
 </div>
 
 <style>
-    .card {
+    .padding {
         padding: 1rem;
     }
 
