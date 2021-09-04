@@ -1,10 +1,22 @@
-<div class="root">
-    <div class="img-container">
-        <img src="/illustrations/face.png" alt="Thomas' face" height="128" />
-    </div>
+<script lang="ts">
+    export let title: string;
+    export let description: string;
+    export let avatar: boolean = true;
+</script>
+
+<div class="root" class:reverse-root={avatar}>
+    {#if avatar}
+        <div class="img-container">
+            <img src="/illustrations/face.png" alt="Thomas' face" height="128" />
+        </div>
+    {/if}
     <div class="text-container">
-        <h1>👋 Thomas Roger Lux</h1>
-        <p>is a Software Engineer based in Paris, France</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <div class="navigation-container">
+            <a href="/">/home</a>
+            <a href="/blog">/blog</a>
+        </div>
     </div>
 </div>
 
@@ -14,6 +26,10 @@
         border-bottom: 0.2rem solid var(--accent-color);
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .reverse-root {
         justify-content: space-between;
     }
 
@@ -41,6 +57,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin-bottom: 1rem;
     }
 
     h1 {
@@ -53,12 +70,16 @@
     }
 
     @media (min-width: 640px) {
-        .root {
+        .reverse-root {
             flex-direction: row-reverse;
         }
 
         .img-container {
             border: none;
+            height: 100%;
+        }
+
+        .root {
             height: 12rem;
         }
     }

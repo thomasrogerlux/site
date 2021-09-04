@@ -10,7 +10,12 @@
 </svelte:head>
 
 <Page>
-    <Header slot="header" />
+    <Header
+        slot="header"
+        title="👋 Thomas Roger Lux"
+        description="is a software engineer based in Paris, France"
+        avatar
+    />
     <svelte:fragment slot="main">
         <About />
         <Contact />
