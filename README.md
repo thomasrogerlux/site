@@ -1,6 +1,6 @@
-# @thomasrogerlux's website
+# [@thomasrogerlux](https://github.com/thomasrogerlux)'s website
 
-Please note this is a work in progress v2. You can check out the v1 at [thomasrogerlux.dev](https://thomasrogerlux.dev).
+Source code of my personnal website: [thomasrogerlux.dev](https://thomasrogerlux.dev).
 
 ## Stack
 
