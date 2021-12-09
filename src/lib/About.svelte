@@ -10,7 +10,7 @@
         {
             title: "💻 Work",
             description:
-                "Software engineer at Qantev. I joined the team of this insurtech startup based in Paris, where we're all working very hard to produce a solid SaaS for medical networks."
+                "Software engineer at Ledger, exploring the crypto world and what's really behind Web 3.0. Working on open source projects like the Ledger Live wallet."
         },
         {
             title: "📸 Life",
